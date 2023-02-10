@@ -1,4 +1,4 @@
-import { Button, Card, CardActionArea, CardMedia, Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import "./styles.css";
 
 const BGCOLOR = "#1E2B37";

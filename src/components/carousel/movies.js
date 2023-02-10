@@ -20,8 +20,6 @@ const GENRE4 = "Animation";
 
 const breadcrumbs = ["Today", "This week", "Last 30 days"];
 
-let movies = [];
-
 function todayMovies() {
   let movies = [];
 
@@ -95,8 +93,8 @@ function monthMovies() {
 }
 
 function getMovies(category) {
-  if (category == breadcrumbs[0]) return todayMovies();
-  if (category == breadcrumbs[1]) return weekMovies();
+  if (category === breadcrumbs[0]) return todayMovies();
+  if (category === breadcrumbs[1]) return weekMovies();
   return monthMovies();
 }
 

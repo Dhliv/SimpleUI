@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import "./styles.css";
 
 /**
@@ -27,7 +27,7 @@ export default function MovieBreadcrumbs(props) {
 
       display.push(
         <Grid key={`grid-${i * 2 + 1}`} item>
-          <p onClick={handleClick} id={props.categories[i]} key={`Ty-${i}`} className={"category-text" + (props.selected == props.categories[i] ? "-selected" : "")}>
+          <p onClick={handleClick} id={props.categories[i]} key={`Ty-${i}`} className={"category-text" + (props.selected === props.categories[i] ? "-selected" : "")}>
             {props.categories[i]}
           </p>
         </Grid>);

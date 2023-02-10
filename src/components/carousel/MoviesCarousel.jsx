@@ -1,4 +1,4 @@
-import { Grid, Link, Stack, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import MovieCard from "../cards/movie/Movie";
 import Stepper from "../stepper/Stepper";
