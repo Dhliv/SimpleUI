@@ -1,0 +1,16 @@
+.spotlight-title{
+  font-size: 23px !important;
+  text-align: left;
+  font-weight: bold !important;
+}
+
+.view-all-text{
+  font-size: 11px !important;
+  text-align: left;
+  color: #626262;
+}
+
+.view-all-text:hover{
+  cursor: pointer;
+  color: #111111;
+}

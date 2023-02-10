@@ -1,0 +1,19 @@
+.category-text{
+  font-size: 13px;
+  text-align: left;
+  color: #969595;
+  cursor: pointer;
+}
+
+.category-divisor{
+  font-size: 13px;
+  text-align: left;
+  color: #969595;
+}
+
+.category-text-selected{
+  font-size: 13px;
+  text-align: left;
+  color: #18B8DF;
+  font-weight: bold;
+}

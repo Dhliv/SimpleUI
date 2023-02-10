@@ -1,0 +1,11 @@
+.divisor-line{
+  border: 1px solid #464646;
+}
+
+.divisor-up{
+  padding-top: 2px;
+}
+
+.divisor-down{
+  padding-bottom: 5px;
+}

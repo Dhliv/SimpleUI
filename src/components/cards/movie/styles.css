@@ -1,0 +1,17 @@
+.card-thumbnail-background{
+  height: 240px;
+  width: 154px;
+  /* display: grid; */
+}
+
+.genre-year-text{
+  font-size: 13px;
+  text-align: left;
+  color: #969595;
+}
+
+.movie-title{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
