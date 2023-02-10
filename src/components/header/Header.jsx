@@ -6,7 +6,7 @@ const VIDEO_ID = "qiMF5Z-5cwY";
 
 const Video = () => {
   return (
-    <Grid key="video1" item xs={5} height="100%">
+    <Grid key="video1" item xs={12} md={5} height={{ xs: "40%", sm: "60%", md: "100%" }}>
       <iframe
         className="video"
         width="100%"
@@ -23,7 +23,7 @@ export default function Header(props) {
   return (
     <Grid container sx={{ backgroundColor: BGCOLOR }}>
       <Grid container alignItems="center" alignContent="center" spacing={2} sx={{ backgroundColor: BGCOLOR, padding: "5%" }}>
-        <Grid item xs={5}>
+        <Grid item xs={12} md={5}>
           <Typography className="bold-text" variant="h3">
             Big Comeback
           </Typography>
@@ -51,9 +51,13 @@ export default function Header(props) {
           </Grid>
         </Grid>
 
-        <Grid item xs={2} />
+        <Grid item xs={0} md={2} />
 
         <Video />
+
+        <Grid item xs={12}>
+          <div style={{ paddingTop: '30px' }} />
+        </Grid>
 
       </Grid>
     </Grid>
